@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:"Montserrat", sans-serif;
+}
+
+@layer components {
+  .contact_input {
+      @apply outline-none bg-slate-400/10 px-6 py-4 border-b border-[#242424] rounded-sm
+      text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 
+      focus:text-[#F7AB0A]/40
+  }
+}
